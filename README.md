@@ -171,3 +171,6 @@ Demonstra como o mesmo loop de algoritmo funciona de forma transparente em image
 python aula-1/stream_exemplo.py --midia imagem_teste.png
 python aula-1/stream_exemplo.py --midia video.mp4
 ```
+## Slides
+
+Acesse os [slides](https://canva.link/7h99gdonnvfqsd5) para ver o desafio.
