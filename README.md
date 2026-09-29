@@ -1,6 +1,6 @@
 # Introdução à Visão Computacional
 
-Repositório complementar de suporte didático às aulas de Introdução à Visão Computacional (**Capivoa — EletroQuad-UFPR**).
+Repositório complementar de suporte às aulas de Introdução à Visão Computacional (SAEM).
 
 O repositório é organizado em pastas modulares:
 
