@@ -61,6 +61,8 @@ def resolver_caminho(caminho: Optional[Union[str, Path]], nome: Optional[str] = 
   # ordem de verificação para encontrar o arquivo
   candidatos = [
     Path.cwd() / caminho_path,
+    BASE_DIR / "aula-2" / "desafio" / caminho_path,
+    BASE_DIR / "aula-2" / caminho_path,
     BASE_DIR / "aula-1" / "desafio" / caminho_path,
     BASE_DIR / "aula-1" / caminho_path,
     BASE_DIR / caminho_path,
@@ -71,7 +73,7 @@ def resolver_caminho(caminho: Optional[Union[str, Path]], nome: Optional[str] = 
     if candidato.exists():
       return candidato
 
-  # se ainda não existe fisicamente (ex: arquivo novo para salvar), usa pasta de trabalho ou aula-1
+  # se ainda não existe fisicamente (ex: arquivo novo para salvar), usa pasta de trabalho, aula-2 ou aula-1
   return Path.cwd() / caminho_path
 
 
